@@ -24,19 +24,69 @@ body:before {
   background: linear-gradient(to right, #3a7bd5, #00d2ff);
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
 .Resume {
+  display: flex;
+  flex-direction: column;
   max-width: 768px;
   margin: 0 auto;
   padding: 1.5rem;
 }
 
 .Resume__Title {
+  font-size: 2.2rem;
   line-height: 1.2;
 }
 
 .Resume__Description {
   font-size: 1.4rem;
   line-height: 1.3;
+}
+
+.Resume__Link--Rachelblue:hover {
+  transition: 30ms color ease-out;
+  color: #3a7bd5 !important;
+}
+.Resume__Link--Vingle:hover {
+  transition: 30ms color ease-out;
+  color: #E63E45 !important;
+}
+.Resume__Link--Mangoplate:hover {
+  transition: 30ms color ease-out;
+  color: #ff7100 !important;
+}
+.Resume__Link:visited {
+  color: inherit;
+}
+
+.Resume__Section {
+  margin: 1rem 0;
+}
+
+.Resume__Article {
+  display: flex;
+  flex-direction: column;
+}
+
+.Resume__WorkArticle {
+  margin-bottom: 2rem;
+}
+.Resume__WorkArticle .Resume__WorkName {
+  margin: 0.8rem 0;
+}
+.Resume__WorkArticle .Resume__WorkPeriod {
+  margin-top: 0.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
