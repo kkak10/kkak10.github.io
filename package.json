@@ -1,0 +1,15 @@
+{
+  "name": "kkak10.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kkak10/kkak10.github.io.git",
+  "author": "leehanur <kkak1072@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "sass --watch ./styles/main.scss ./styles/main.css"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "sass": "^1.68.0"
+  }
+}
