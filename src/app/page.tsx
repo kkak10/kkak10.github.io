@@ -1,14 +1,20 @@
+import Markdown from 'react-markdown'
 import Image from "next/image";
 import styles from "./page.module.css";
 
+const markdown = '# Hi, *Pluto*!'
+
 export default function Home() {
+  const a= 10;
+
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
+        <div>
+          <Markdown>{markdown}</Markdown>
+        </div>
+
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
