@@ -1,13 +1,10 @@
-import Markdown from 'react-markdown'
+import Markdown from "react-markdown";
 import Image from "next/image";
 import styles from "./page.module.css";
 
-const markdown = '# Hi, *Pluto*!'
+const markdown = "# Hi, *Pluto*!";
 
 export default function Home() {
-  const a= 10;
-
-
   return (
     <main className={styles.main}>
       <div className={styles.description}>
